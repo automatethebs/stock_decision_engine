@@ -22,6 +22,7 @@ Thumbs.db
 # Editors / tooling
 .idea/
 .vscode/
+.claude/
 *.swp
 
 # Local tool caches
