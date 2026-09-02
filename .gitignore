@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Logs (streamlit output captured during development)
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editors / tooling
+.idea/
+.vscode/
+*.swp
+
+# Local tool caches
+.playwright-mcp/
+
+# Downloaded market data (regenerable via src/data_loader.py — ~650 MB)
+data/
+pytest-cache-files-*/
